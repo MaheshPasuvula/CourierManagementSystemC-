@@ -79,7 +79,7 @@ namespace Assignment
                 case "phone":
                     return ValidatePhoneNumber(data);
                 default:
-                    Console.WriteLine("Invalid detail provided for validation.");
+                    Console.WriteLine("Invalid detail provided for validation..");
                     return false;
             }
         }
